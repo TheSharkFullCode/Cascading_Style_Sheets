@@ -46,10 +46,10 @@
 - [x] **0.1 Crear el proyecto.** `npm create vite@latest cascada -- --template react`, `npm install` y `npm run dev`. *Lo tienes cuando* ves la página de Vite en `localhost:5173`.
 - [x] **0.2 Limpiar la plantilla.** Borra el contenido de `App.jsx` y los CSS de ejemplo. Deja un `<h1>Cascada</h1>`.
 - [x] | **lucide-react** + **react-icons** | Iconos: Lucide para la interfaz, react-icons (`si`) para los logos de marcas |
-- [ ] **0.3 Instalar dependencias.** `react-router-dom` y `prism-react-renderer`.
-- [ ] **0.4 Copiar los `.md`** (`ARQUITECTURA.md` y `HOJA_DE_RUTA.md`) a la raíz del proyecto.
-- [ ] **0.5 Git y GitHub.** Crea el repo `cascada`, haz `git init` y el primer commit, y súbelo.
-- [ ] **0.6 Crear las carpetas** de la sección 7 de la arquitectura, todavía vacías.
+- [x] **0.3 Instalar dependencias.** `react-router-dom` y `prism-react-renderer`.
+- [x] **0.4 Copiar los `.md`** (`ARQUITECTURA.md` y `HOJA_DE_RUTA.md`) a la raíz del proyecto.
+- [x] **0.5 Git y GitHub.** Crea el repo `cascada`, haz `git init` y el primer commit, y súbelo.
+- [x] **0.6 Crear las carpetas** de la sección 7 de la arquitectura, todavía vacías.
 
 **Aprenderás:** cómo se inicia un proyecto profesional desde cero.
 

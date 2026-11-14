@@ -1,0 +1,38 @@
+    :root{
+                        /*Base*/
+
+    --papel:              #ffffff;
+    --papel-2:            #f6f7fb;
+    --tinta:              #0b1020;
+    --tinta-suave:        #5b6178;
+    --linea:              #e6e8f0;
+
+                        /* Acentos */
+
+    --electrico:        #2f5bff;
+    --rebecca:          #663399;
+    --coral:            #ff5a5f;
+    --mandarina:        #ff9f1c;
+    --fucsia:           #e83e8c;
+    --menta:            #00c2a8;
+    --sol:              #ffd23f;
+
+                        /* Degradados */
+    
+    --grad-marca: linear-gradient(100deg,    var(--mandarina),
+                                             var(--coral) 45%,
+                                             var(--fucsia) 75%,
+                                             var(--rebecca));
+    
+    --grad-frio: linear-gradient(135deg, var(--electrico),
+                                         var(--rebecca));
+
+    --grad-aurora:  radial-gradient(at 15% 20%, color-mix(in srgb, var(--electrico) 12%, transparent), transparent 55% ),
+                    radial-gradient(at 85% 10%, color-mix(in srgb, var(--fucsia) 12%,  transparent ), transparent 50%),
+                    radial-gradient(at 50% 90%, color-mix(in srgb, var(--menta)   12%, transparent ), transparent 60%);
+
+
+
+
+}
+
