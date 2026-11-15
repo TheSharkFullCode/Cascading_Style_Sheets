@@ -1,7 +1,22 @@
     :root{
+
+                 /* Degradados */
+        
+    --grad-aurora:  radial-gradient(at 15% 20%, color-mix(in srgb, var(--electrico) 12%, transparent), transparent 55% ),
+        radial-gradient(at 85% 10%, color-mix(in srgb, var(--fucsia) 12%,  transparent ), transparent 50%),
+        radial-gradient(at 50% 90%, color-mix(in srgb, var(--menta)   12%, transparent ), transparent 60%);
+    
+    --grad-marca: linear-gradient(100deg,    var(--mandarina),
+                             var(--coral) 45%,
+                             var(--fucsia) 75%,
+                             var(--rebecca));
+    
+    --grad-frio: linear-gradient(135deg, var(--electrico),
+                         var(--rebecca));
+
                         /*Base*/
 
-    --papel:              #ffffff;
+    --papel:              #ffffff;                    
     --papel-2:            #f6f7fb;
     --tinta:              #0b1020;
     --tinta-suave:        #5b6178;
@@ -9,7 +24,7 @@
 
                         /* Acentos */
 
-    --electrico:        #2f5bff;
+    --electrico:        #2f5bff;                    
     --rebecca:          #663399;
     --coral:            #ff5a5f;
     --mandarina:        #ff9f1c;
@@ -17,22 +32,56 @@
     --menta:            #00c2a8;
     --sol:              #ffd23f;
 
-                        /* Degradados */
-    
-    --grad-marca: linear-gradient(100deg,    var(--mandarina),
-                                             var(--coral) 45%,
-                                             var(--fucsia) 75%,
-                                             var(--rebecca));
-    
-    --grad-frio: linear-gradient(135deg, var(--electrico),
-                                         var(--rebecca));
+                        /* Tipografia */
 
-    --grad-aurora:  radial-gradient(at 15% 20%, color-mix(in srgb, var(--electrico) 12%, transparent), transparent 55% ),
-                    radial-gradient(at 85% 10%, color-mix(in srgb, var(--fucsia) 12%,  transparent ), transparent 50%),
-                    radial-gradient(at 50% 90%, color-mix(in srgb, var(--menta)   12%, transparent ), transparent 60%);
+    --fuente-titulos:        'Space Grotesk', sans-serif;
+    --fuente-acento:         'Instrument Serif', serif;
+    --fuente-texto:          'Inter', sans-serif;
+    --fuente-mono:           'JetBrains Mono', monospace;
+
+                        /* Escala de valores por tamaño */
+
+    --texto-xs:         clamp(0.75rem, 0.7rem + 0.2vw, 0.8rem);
+    --texto-base:       clamp(1rem, 0.95rem + 0.25vw, 1.1rem);
+    --texto-xl:         clamp(1.5rem, 1.2rem + 1.2vw, 2rem);
+    --texto-hero:       clamp(2.75rem, 1.5rem + 5vw, 5.5rem);
+
+                       /* Espacios */
+            
+    --esp-1:           0.25rem; /*4px*/
+    --esp-2:           0.5rem;  /*8px*/
+    --esp-3:           0.75rem; /*12px*/
+    --esp-4:           1rem;    /*16px*/
+    --esp-5:           1.5rem;  /*24px*/
+    --esp-6:           2rem;    /*32px*/
+    --esp-7:           2.5rem;  /*40px*/
+    --esp-8:           3rem;    /*48px*/
+    --esp-9:           4rem;    /*64px*/
+    --esp-10:          5rem;    /*80px*/
+
+                    /* Radio Button, etc.. */
+
+    --radio-s:          8px; /*Botones pequeños*/
+    --radio-m:          16px; /*Tarjetas*/
+    --radio-l:          28px; /*Poster y bloques grandes*/
+    --radio-pill:       999px; /*Botones forma capsula*/
+
+                    /* Sombras- [Box-Shadows] */
+
+    --sombra-s:         0 2px 8px color-mix(in srgb, var(--tinta)  8%, transparent);
+    --sombra-l:         0 12px 32px color-mix(in srgb, var(--tinta) 12%, transparent);
+    --sombra-color:     0 8px 24px color-mix(in srgb, var(--electrico) 25%, transparent);
+
+                /* Anchos --> [max-width: and gutter: 'margen lateral'] */
+
+    --ancho-max:        1200px; /*En el movil se encoge el ancho disponible y en monitor se pone a 1200*/
+    --gutter:           clamp(16px, 4vw, 40px);
+    
+
 
 
 
 
 }
+
 

@@ -57,7 +57,7 @@
 
 ## Fase 1 — Sistema de diseño (solo CSS)
 
-- [ ] **1.1 `tokens.css`.** Colores, degradados, tipografía, espacios, radios y sombras como variables CSS (sección 4 de la arquitectura).
+- [x] **1.1 `tokens.css`.** Colores, degradados, tipografía, espacios, radios y sombras como variables CSS (sección 4 de la arquitectura).
 - [ ] **1.2 `base.css`.** Un reset moderno (`box-sizing`, márgenes a cero, `img { max-width: 100% }`), estilos de `body`, títulos y `:focus-visible`.
 - [ ] **1.3 Fuentes.** Enlaza en `index.html` Space Grotesk, Inter, Instrument Serif y JetBrains Mono.
 - [ ] **1.4 `utilidades.css`.** `.contenedor` (ancho máximo + gutter), `.sr-only` y `.texto-grad`.
