@@ -6,7 +6,7 @@ function App() {
     <>
     <div className="contenedor">
 
-    <h1> <span className="texto-grad">Cascada</span> <Rocket size={28} strokeWidth={1.5} color="#2f5bff" /></h1>
+    <h1 style={{animation:'aparecer 0.8s ease-out'}}> <span className="texto-grad">Cascada</span> <Rocket size={28} strokeWidth={1.5} color="#2f5bff" /></h1>
     </div>
     </>
   )
