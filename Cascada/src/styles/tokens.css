@@ -22,7 +22,7 @@
     --tinta-suave:        #5b6178;
     --linea:              #e6e8f0;
 
-                        /* Acentos */
+                        /* Acentos, [Enlaces, botones, Focos] */
 
     --electrico:        #2f5bff;                    
     --rebecca:          #663399;
@@ -76,7 +76,7 @@
 
     --ancho-max:        1200px; /*En el movil se encoge el ancho disponible y en monitor se pone a 1200*/
     --gutter:           clamp(16px, 4vw, 40px);
-    
+
 
 
 

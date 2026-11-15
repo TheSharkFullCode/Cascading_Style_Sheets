@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+}
+
+*,*::before, *::after{
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--papel);
+    font-family: var(--fuente-texto);
+    color: var(--tinta);
+    font-size: var(--texto-base);
+    line-height: 1.6;
+}
+
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+h1,
+h2, 
+h3 {
+    font-family: var(--fuente-titulos);
+    line-height: 1.1;
+}
+
+/*Se activa segun el Estado del Elemento*/
+:focus-visible{
+    outline: 2px solid var(--electrico);
+    outline-offset: 3px; /*Lo separas un poco para que respire*/
+}
+
+
