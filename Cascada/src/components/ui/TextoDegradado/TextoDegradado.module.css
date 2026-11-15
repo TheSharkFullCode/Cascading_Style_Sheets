@@ -1,0 +1,5 @@
+.texto{
+    font-family: var(--fuente-acento);
+    font-style: italic;
+    font-weight: 400;
+}

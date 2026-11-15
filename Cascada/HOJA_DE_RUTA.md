@@ -73,7 +73,7 @@
 
 Uno por uno, cada uno en su carpeta con su `.module.css`:
 
-- [ ] **2.1 `Antetitulo`**, con el cursor parpadeante. *Tu primer CSS Module.*
+- [x] **2.1 `Antetitulo`**, con el cursor parpadeante. *Tu primer CSS Module.*
 - [ ] **2.2 `TextoDegradado`.**
 - [ ] **2.3 `Boton`** con variantes (`primario`, `grad`, `fantasma`). Aprende a combinar clases según las props y a usar `...resto`.
 - [ ] **2.4 `Etiqueta`.**
