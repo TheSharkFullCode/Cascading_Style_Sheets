@@ -60,9 +60,9 @@
 - [x] **1.1 `tokens.css`.** Colores, degradados, tipografía, espacios, radios y sombras como variables CSS (sección 4 de la arquitectura).
 - [x] **1.2 `base.css`.** Un reset moderno (`box-sizing`, márgenes a cero, `img { max-width: 100% }`), estilos de `body`, títulos y `:focus-visible`.
 - [x] **1.3 Fuentes.** Enlaza en `index.html` Space Grotesk, Inter, Instrument Serif y JetBrains Mono.
-- [ ] **1.4 `utilidades.css`.** `.contenedor` (ancho máximo + gutter), `.sr-only` y `.texto-grad`.
-- [ ] **1.5 `animaciones.css`.** `@keyframes parpadeo` (para el cursor) y `aparecer`.
-- [ ] **1.6 Probar todo** en `App.jsx` con un título, un párrafo y una palabra con degradado.
+- [x] **1.4 `utilidades.css`.** `.contenedor` (ancho máximo + gutter), `.sr-only` y `.texto-grad`.
+- [x] **1.5 `animaciones.css`.** `@keyframes parpadeo` (para el cursor) y `aparecer`.
+- [x] **1.6 Probar todo** en `App.jsx` con un título, un párrafo y una palabra con degradado.
 
 **Aprenderás:** variables CSS, `clamp()`, la cascada en la práctica y `@keyframes`.
 **Lo tienes cuando:** al cambiar un color en `tokens.css`, cambia en toda la página.

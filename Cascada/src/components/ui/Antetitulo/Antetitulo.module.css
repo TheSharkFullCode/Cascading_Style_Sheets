@@ -1,0 +1,19 @@
+.antetitulo{
+    font-family: var(--fuente-mono);
+    font-size: var(--texto-xs);
+    text-transform: uppercase;
+    letter-spacing: 0.25em;
+    color: var(--tinta-suave);
+}
+
+.antetitulo::after{
+    content: '';   /*Que exista*/
+    display: inline-block;
+    width: 0.6em;
+    height: 1em;   /*Alto de la letra*/
+    margin-left: 0.3em;
+    background: var(--sol);
+    vertical-align: -0.1em; /*Lo baja un pelin para alinearlo con la letra*/
+
+
+}
