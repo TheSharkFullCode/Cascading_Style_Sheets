@@ -1,0 +1,64 @@
+.nota{
+    padding: var(--esp-5);
+    line-height: 1.8;
+    /* background: color-mix(in srgb, var(--sol) 45%, var(--papel) ); */
+    background: repeating-linear-gradient(
+        to bottom,
+        transparent 0,
+        transparent calc(1lh - 1px),
+        color-mix(in srgb, var(--tinta) 15%, transparent) calc(1lh - 1px),
+        color-mix(in srgb, var(--tinta) 15%, transparent) 1lh ),
+        color-mix(in srgb, var(--sol) 45%, var(--papel));       
+
+
+    background-origin: content-box;
+    color: var(--tinta);
+    border-radius: var(--radio-s);
+    box-shadow: var(--sombra-s);
+    transform: rotate(-1.5deg);
+    transition: transform 0.2s ease-out, box-shadow 0.2s ease-out;
+    max-width: 30ch;
+    margin-left: auto;
+    position: relative;
+}
+
+.nota:hover{
+    transform: rotate(0deg);
+    box-shadow: var(--sombra-l);
+    
+}
+
+.ojos{
+    position: absolute;
+    top: -1em;
+    right: var(--esp-4);
+    display: flex;
+    gap: 4px;
+}
+
+.ojo{
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 50%;
+    border: 2px solid var(--tinta);
+ background: radial-gradient(circle at 35% 60%, var(--tinta) 0 25%, var(--papel) 27%);
+ position: relative;
+}
+
+.ojo::before {
+  content: '';
+  position: absolute;
+  top: -0.5em;
+  left: 50%;
+  width: 1.1em;
+  height: 3px;
+  background: var(--tinta);
+  border-radius: var(--radio-pill);
+  transform: translateX(-50%);
+  transition: transform 0.2s ease-out;
+}
+
+.nota:hover .ojo::before {
+  transform: translateX(-50%) translateY(-6px);
+}
+

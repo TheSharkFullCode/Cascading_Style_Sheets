@@ -1,7 +1,7 @@
 import { Rocket } from "lucide-react";
 import Antetitulo from "./components/ui/Antetitulo/Antetitulo.jsx";
 import TextoDegradado from './components/ui/TextoDegradado/TextoDegradado.jsx'
-
+import Nota from "./components/ui/Nota/Nota.jsx";
 import Boton from "./components/ui/Boton/Boton.jsx";
 import Etiqueta from "./components/ui/Etiqueta/Etiqueta.jsx";
 
@@ -23,6 +23,9 @@ function App() {
     <Etiqueta color='menta'>Responsive</Etiqueta>
     <Etiqueta color='fucsia'>Movimiento</Etiqueta>
     <Etiqueta color='coral'>CSS moderno</Etiqueta>
+    <Nota>Truco: margin-inline: auto centra cualquier caja con ancho máximo</Nota>
+
+
     </div>
     </>
   )
