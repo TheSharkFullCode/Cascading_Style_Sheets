@@ -45,6 +45,17 @@
  position: relative;
 }
 
+.ojo:first-child {
+    /*Transform: --Giro:[“propiedad personalizada” (custom property),]*/
+  --giro: 15deg;
+}
+
+.ojo:last-child {
+     /*Transform: --Giro:[“propiedad personalizada” (custom property),]*/
+  --giro: -15deg;
+}
+
+
 .ojo::before {
   content: '';
   position: absolute;
@@ -54,8 +65,9 @@
   height: 3px;
   background: var(--tinta);
   border-radius: var(--radio-pill);
-  transform: translateX(-50%);
-  transition: transform 0.2s ease-out;
+  transform: translateX(-50%) rotate(var(--giro));
+  transition: transform 0.2s ease-out 0.1s;
+
 }
 
 .nota:hover .ojo::before {
