@@ -1,0 +1,13 @@
+.etiqueta{
+    --color: var(--electrico);
+    display: inline-block;
+    padding: var(--esp-1) var(--esp-3);
+    border-radius: var(--radio-pill);
+    font-family: var(--fuente-mono);
+    font-size: var(--texto-xs);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--color);
+    background: color-mix(in srgb, var(--color) 12%, transparent);
+    border: 1px solid color-mix(in srgb, var(--color) 30%, transparent);
+}

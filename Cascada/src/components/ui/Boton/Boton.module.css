@@ -1,0 +1,28 @@
+.boton{
+    display: inline-flex;
+    align-items: center;
+    gap: var(--esp-2);
+    padding: var(--esp-3) var(--esp-5);
+    border: none;
+    border-radius: var(--radio-pill);
+    font-family: var(--fuente-texto);
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.primario{
+    background: var(--electrico);
+    color: var(--papel);
+    box-shadow: var(--sombra-color);
+}
+
+.grad{
+    background: var(--grad-marca);
+    color: var(--papel);
+}
+
+.fantasma{
+    background: transparent;
+    color: var(--tinta);
+    border: 1px solid var(--linea);
+}
