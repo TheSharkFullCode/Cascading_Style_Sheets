@@ -1,8 +1,42 @@
 .bloque{
-    background: var(--papel-2);
-    border: 1px solid var(--linea);
-    border-radius: var(--radio-m);
     padding: var(--esp-4);
     font-family: var(--fuente-mono);
     overflow-x: auto; /*si una línea es muy larga, la caja hace scroll en horizontal en vez de romperse*/
 }
+
+.ventana{
+     background: var(--papel-2);
+    border: 1px solid var(--linea);
+    border-radius: var(--radio-m);
+    overflow: hidden;
+
+}
+
+.barra{
+    display: flex;
+    gap: var(--esp-2);
+    padding: var(--esp-3);
+    border-bottom: 1px solid var(--linea);/*(la raya que separa la barra del código)*/
+ 
+}
+
+.punto{
+    width: 10px;
+    height: 10px;   
+    border-radius: 50%;
+    background: var(--linea);
+}
+
+/*Cómo le das un color distinto a cada uno? Con la pseudoclase :nth-child(), que selecciona un elemento por su posición dentro de su padre:*/
+.punto:nth-child(1){
+    background: var(--coral);
+}
+.punto:nth-child(2){
+    background: var(--sol);
+
+}
+.punto:nth-child(3){
+    background: var(--menta);
+
+}
+
