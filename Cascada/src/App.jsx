@@ -5,6 +5,8 @@ import Nota from "./components/ui/Nota/Nota.jsx";
 import Boton from "./components/ui/Boton/Boton.jsx";
 import Etiqueta from "./components/ui/Etiqueta/Etiqueta.jsx";
 import BotonCopiar from "./components/ui/BotonCopiar/BotonCopiar.jsx";
+import BloqueCodigo from "./components/ui/BloqueCodigo/BloqueCodigo.jsx";
+
 
 
 function App() {
@@ -26,6 +28,9 @@ function App() {
     <Etiqueta color='coral'>CSS moderno</Etiqueta>
     <Nota>Truco: margin-inline: auto centra cualquier caja con ancho máximo</Nota>
     <BotonCopiar texto='margin-inline: auto'></BotonCopiar>
+    <BloqueCodigo codigo={`.caja{
+    margin-inline: auto;
+    }`}/>
 
 
     </div>

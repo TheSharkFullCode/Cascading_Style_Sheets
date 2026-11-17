@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 function useCopiar() {
-    
+
     const [copiado,setCopiado]=useState(false);
 
     function copiar(texto){

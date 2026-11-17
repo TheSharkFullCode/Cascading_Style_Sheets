@@ -1,0 +1,8 @@
+.bloque{
+    background: var(--papel-2);
+    border: 1px solid var(--linea);
+    border-radius: var(--radio-m);
+    padding: var(--esp-4);
+    font-family: var(--fuente-mono);
+    overflow-x: auto; /*si una línea es muy larga, la caja hace scroll en horizontal en vez de romperse*/
+}
