@@ -74,10 +74,10 @@
 Uno por uno, cada uno en su carpeta con su `.module.css`:
 
 - [x] **2.1 `Antetitulo`**, con el cursor parpadeante. *Tu primer CSS Module.*
-- [ ] **2.2 `TextoDegradado`.**
-- [ ] **2.3 `Boton`** con variantes (`primario`, `grad`, `fantasma`). Aprende a combinar clases según las props y a usar `...resto`.
-- [ ] **2.4 `Etiqueta`.**
-- [ ] **2.5 `Nota`** (post-it).
+- [x] **2.2 `TextoDegradado`.**
+- [x] **2.3 `Boton`** con variantes (`primario`, `grad`, `fantasma`). Aprende a combinar clases según las props y a usar `...resto`.
+- [x] **2.4 `Etiqueta`.**
+- [x] **2.5 `Nota`** (post-it).
 - [ ] **2.6 `BloqueCodigo` + `BotonCopiar` + `useCopiar`.** Tu primer custom hook del proyecto.
 - [ ] **2.7 `BarraProgreso`.**
 - [ ] **2.8 Página de pruebas temporal** (`/kit`) donde se ven todos los componentes juntos.
