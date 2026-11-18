@@ -4,6 +4,7 @@
     padding: var(--esp-2);
     border-radius: var(--radio-s);
     border: 1px solid var(--linea);
-    background: var(--papel);
+    /* background: transparent; */
     cursor: pointer;
+    /* color: var(--linea); */
 }

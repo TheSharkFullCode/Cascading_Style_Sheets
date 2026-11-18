@@ -21,6 +21,9 @@
     --tinta:              #0b1020;
     --tinta-suave:        #5b6178;
     --linea:              #e6e8f0;
+    --codigo-fondo:       #282a36;
+    --codigo-linea:       #44475a;
+
 
                         /* Acentos, [Enlaces, botones, Focos] */
 
@@ -31,7 +34,7 @@
     --fucsia:           #e83e8c;
     --menta:            #00c2a8;
     --sol:              #ffd23f;
-
+  
                         /* Tipografia */
 
     --fuente-titulos:        'Space Grotesk', sans-serif;

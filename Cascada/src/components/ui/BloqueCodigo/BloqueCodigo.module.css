@@ -5,7 +5,7 @@
 }
 
 .ventana{
-     background: var(--papel-2);
+     background: var(--codigo-fondo);
     border: 1px solid var(--linea);
     border-radius: var(--radio-m);
     overflow: hidden;
@@ -16,7 +16,7 @@
     display: flex;
     gap: var(--esp-2);
     padding: var(--esp-3);
-    border-bottom: 1px solid var(--linea);/*(la raya que separa la barra del código)*/
+    border-bottom: 1px solid var(--codigo-linea);/*(la raya que separa la barra del código)*/
     align-items: center
 }
 

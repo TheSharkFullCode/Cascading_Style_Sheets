@@ -17,7 +17,7 @@ function BloqueCodigo({codigo}) {
         </div>
         </div>
 
-        <Highlight code={codigo} language='css' theme={themes.github}>    
+        <Highlight code={codigo} language='css' theme={themes.nightOwl}>    
             {({tokens,getLineProps,getTokenProps})=> (
 
             <pre className={styles.bloque}>
