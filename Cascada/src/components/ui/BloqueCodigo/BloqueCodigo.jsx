@@ -24,7 +24,10 @@ function BloqueCodigo({codigo}) {
 
             <code>
             {tokens.map((linea,i)=> (
-                <div key={i} {...getLineProps({line:linea})}> {linea.map((token,j)=>(
+               
+                <div key={i} {...getLineProps({line:linea})}> 
+                 <span className={styles.numero}>{i+1}</span>
+                {linea.map((token,j)=>(
 
                     <span key={j} {...getTokenProps({token})}/>
                 ))}
@@ -32,9 +35,7 @@ function BloqueCodigo({codigo}) {
                 </div>
             ))}
             </code>
-
             </pre>
-
             )}     
 
             

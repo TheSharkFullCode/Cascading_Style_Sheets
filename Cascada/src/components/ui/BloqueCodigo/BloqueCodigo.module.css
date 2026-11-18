@@ -43,3 +43,12 @@
 .accion{
     margin-left: auto
 }
+
+.numero{
+    display: inline-block;
+    width: 3ch;
+    text-align: right;
+    margin-right: var(--esp-4);
+    color: var(--tinta-suave);
+    user-select: none;
+}

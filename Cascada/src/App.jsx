@@ -6,6 +6,7 @@ import Boton from "./components/ui/Boton/Boton.jsx";
 import Etiqueta from "./components/ui/Etiqueta/Etiqueta.jsx";
 import BotonCopiar from "./components/ui/BotonCopiar/BotonCopiar.jsx";
 import BloqueCodigo from "./components/ui/BloqueCodigo/BloqueCodigo.jsx";
+import BarraProgreso from "./components/ui/BarraProgreso/BarraProgreso.jsx";
 
 
 
@@ -30,6 +31,7 @@ function App() {
     <BloqueCodigo codigo={`.caja{
     margin-inline: auto;
     }`}/>
+    <BarraProgreso valor={40}/>
 
 
     </div>
