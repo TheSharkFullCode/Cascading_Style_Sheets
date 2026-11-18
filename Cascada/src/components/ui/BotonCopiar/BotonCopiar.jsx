@@ -3,6 +3,8 @@ import styles from "./BotonCopiar.module.css";
 import { Check } from "lucide-react";
 import { Copy } from "lucide-react";
 
+
+
 function BotonCopiar({texto}) {
 
     const  {copiar,copiado} = useCopiar()

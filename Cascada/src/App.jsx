@@ -27,7 +27,6 @@ function App() {
     <Etiqueta color='fucsia'>Movimiento</Etiqueta>
     <Etiqueta color='coral'>CSS moderno</Etiqueta>
     <Nota>Truco: margin-inline: auto centra cualquier caja con ancho máximo</Nota>
-    <BotonCopiar texto='margin-inline: auto'></BotonCopiar>
     <BloqueCodigo codigo={`.caja{
     margin-inline: auto;
     }`}/>
