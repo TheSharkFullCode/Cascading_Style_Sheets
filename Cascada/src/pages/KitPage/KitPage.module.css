@@ -1,0 +1,11 @@
+.seccion{
+    padding-block: var(--esp-6);
+    border-bottom: 1px solid var(--linea);
+
+}
+
+.fila{
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--esp-3);
+}
