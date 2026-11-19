@@ -78,9 +78,9 @@ Uno por uno, cada uno en su carpeta con su `.module.css`:
 - [x] **2.3 `Boton`** con variantes (`primario`, `grad`, `fantasma`). Aprende a combinar clases según las props y a usar `...resto`.
 - [x] **2.4 `Etiqueta`.**
 - [x] **2.5 `Nota`** (post-it).
-- [ ] **2.6 `BloqueCodigo` + `BotonCopiar` + `useCopiar`.** Tu primer custom hook del proyecto.
-- [ ] **2.7 `BarraProgreso`.**
-- [ ] **2.8 Página de pruebas temporal** (`/kit`) donde se ven todos los componentes juntos.
+- [x] **2.6 `BloqueCodigo` + `BotonCopiar` + `useCopiar`.** Tu primer custom hook del proyecto.
+- [x] **2.7 `BarraProgreso`.**
+- [x] **2.8 Página de pruebas temporal** (`/kit`) donde se ven todos los componentes juntos.
 
 **Aprenderás:** props, `children`, desestructuración, CSS Modules y la regla de las 50 líneas.
 
@@ -88,9 +88,9 @@ Uno por uno, cada uno en su carpeta con su `.module.css`:
 
 ## Fase 3 — Rutas y layout
 
-- [ ] **3.1 `BrowserRouter`** en `main.jsx` y `Routes` en `App.jsx`, con páginas vacías (solo un título) para cada ruta.
-- [ ] **3.2 `Layout`** con `Outlet`.
-- [ ] **3.3 `Navbar`** en forma de píldora, de cristal y fija, con `NavLink` (enlace activo) y el subrayado animado.
+- [x] **3.1 `BrowserRouter`** en `main.jsx` y `Routes` en `App.jsx`, con páginas vacías (solo un título) para cada ruta.
+- [x] **3.2 `Layout`** con `Outlet`.
+- [x] **3.3 `Navbar`** en forma de píldora, de cristal y fija, con `NavLink` (enlace activo) y el subrayado animado.
 - [ ] **3.4 `MenuMovil`** con el botón ☰ y `useState`.
 - [ ] **3.5 `Footer`.**
 - [ ] **3.6 `lazy` + `Suspense`** con el componente `Cargando`.

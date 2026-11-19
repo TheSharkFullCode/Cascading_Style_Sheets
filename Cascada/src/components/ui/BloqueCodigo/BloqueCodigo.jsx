@@ -1,4 +1,3 @@
-import { RiTokenSwapFill } from "react-icons/ri";
 import BotonCopiar from "../BotonCopiar/BotonCopiar";
 import styles from "./BloqueCodigo.module.css";
 import {Highlight, themes} from 'prism-react-renderer'
@@ -23,23 +22,17 @@ function BloqueCodigo({codigo}) {
             <pre className={styles.bloque}>
 
             <code>
-            {tokens.map((linea,i)=> (
-               
+            {tokens.map((linea,i)=> (               
                 <div key={i} {...getLineProps({line:linea})}> 
                  <span className={styles.numero}>{i+1}</span>
                 {linea.map((token,j)=>(
-
                     <span key={j} {...getTokenProps({token})}/>
                 ))}
-
                 </div>
             ))}
             </code>
             </pre>
-            )}     
-
-            
-
+            )}       
         </Highlight>
 
     </div>

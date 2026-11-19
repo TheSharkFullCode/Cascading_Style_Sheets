@@ -1,0 +1,19 @@
+.nav{
+    display: flex;
+    gap:var(--esp-6);
+    padding-block: var(--esp-4);
+    
+}  
+
+.enlace{
+    text-decoration: none;
+    color: inherit;
+    font-weight: 500;
+
+}
+
+.enlace[aria-current='page'] {
+    color: var(--electrico); 
+    font-weight: 700;
+    
+}

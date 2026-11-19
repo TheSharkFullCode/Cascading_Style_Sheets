@@ -10,7 +10,7 @@ import BarraProgreso from "../../components/ui/BarraProgreso/BarraProgreso.jsx";
 
 function KitPage() {
   return (
-    <div className="contenedor">        
+    <div className={`contenedor ${styles.pagina}`}>        
     <Antetitulo>Css · de cero a Experto</Antetitulo>
     <h1> <span className="texto-grad">Cascada</span> <Rocket size={28} strokeWidth={1.5} color="#2f5bff" /></h1>
     <h2>Aprende CSS <TextoDegradado>escribiendo CSS</TextoDegradado> </h2>
@@ -19,7 +19,7 @@ function KitPage() {
         <h3>Botones</h3>
         <div className={styles.fila}>
         <Boton variante='primario'>Empezar</Boton>
-        <Boton variante='grad'>ver Temas</Boton>
+        <Boton variante='grad'>Ver temas</Boton>
         <Boton variante='fantasma'>Más info</Boton>
         </div>
     </section>
@@ -43,14 +43,12 @@ function KitPage() {
     </section>
 
     <section className={styles.seccion}>
-        <h3>Bloque Codigo</h3>
-        <BloqueCodigo codigo={`.caja{
-        margin-inline: auto;
-        }`}/>
+        <h3>Bloque de código</h3>
+        <BloqueCodigo codigo={".caja {\n  margin-inline: auto;\n}"} />
     </section>
 
     <section className={styles.seccion}>
-        <h3>Barra Progreso</h3>
+        <h3>Barra de progreso</h3>
     <BarraProgreso valor={40}/>
     </section>
     
