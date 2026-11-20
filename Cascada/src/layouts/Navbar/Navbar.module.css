@@ -3,6 +3,7 @@
     align-items: center;
     gap:var(--esp-6);
     padding-block: var(--esp-4);
+    position: relative;
     
 }  
 
