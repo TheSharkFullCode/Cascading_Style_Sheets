@@ -1,5 +1,6 @@
 .nav{
     display: flex;
+    align-items: center;
     gap:var(--esp-6);
     padding-block: var(--esp-4);
     
@@ -16,4 +17,16 @@
     color: var(--electrico); 
     font-weight: 700;
     
+}
+
+.enlaces{
+    display: none;
+    gap: var(--esp-6);
+
+}
+
+@media (min-width: 768px){
+    .enlaces{
+        display: flex;
+    }
 }

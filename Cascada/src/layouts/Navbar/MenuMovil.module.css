@@ -1,0 +1,17 @@
+.boton{
+    display: inline-flex;
+    margin-left: auto;
+    padding: var(--esp-2);
+    background: none;
+    color: inherit;
+    cursor: pointer;
+    border: none;
+}
+
+/*En pantallas de 768px o mas esconde el boton*/
+@media (min-width: 768px){
+    .boton{
+        display: none;
+    }
+}
+
