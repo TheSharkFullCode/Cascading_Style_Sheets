@@ -91,7 +91,7 @@ Uno por uno, cada uno en su carpeta con su `.module.css`:
 - [x] **3.1 `BrowserRouter`** en `main.jsx` y `Routes` en `App.jsx`, con páginas vacías (solo un título) para cada ruta.
 - [x] **3.2 `Layout`** con `Outlet`.
 - [x] **3.3 `Navbar`** en forma de píldora, de cristal y fija, con `NavLink` (enlace activo) y el subrayado animado.
-- [ ] **3.4 `MenuMovil`** con el botón ☰ y `useState`.
+- [x] **3.4 `MenuMovil`** con el botón ☰ y `useState`.
 - [ ] **3.5 `Footer`.**
 - [ ] **3.6 `lazy` + `Suspense`** con el componente `Cargando`.
 - [ ] **3.7 Página 404.**
