@@ -92,10 +92,10 @@ Uno por uno, cada uno en su carpeta con su `.module.css`:
 - [x] **3.2 `Layout`** con `Outlet`.
 - [x] **3.3 `Navbar`** en forma de píldora, de cristal y fija, con `NavLink` (enlace activo) y el subrayado animado.
 - [x] **3.4 `MenuMovil`** con el botón ☰ y `useState`.
-- [ ] **3.5 `Footer`.**
-- [ ] **3.6 `lazy` + `Suspense`** con el componente `Cargando`.
-- [ ] **3.7 Página 404.**
-- [ ] **3.8 `useScrollArriba`** para volver arriba al cambiar de ruta.
+- [x] **3.5 `Footer`.**
+- [x] **3.6 `lazy` + `Suspense`** con el componente `Cargando`.
+- [x] **3.7 Página 404.**
+- [x] **3.8 `useScrollArriba`** para volver arriba al cambiar de ruta.
 
 **Aprenderás:** React Router a fondo, `position: sticky/fixed` y `backdrop-filter`.
 
@@ -251,3 +251,12 @@ Por cada tema: **(1)** lo estudias con mi explicación, **(2)** escribes su obje
 | Fecha | Paso | Notas |
 |---|---|---|
 | 2026-11-09 | — | Planificación creada. Empezamos por el 0.1 |
+
+## ⏳ Pendientes para más adelante
+
+Fase 3 (hecha en versión básica). Retomar cuando la web crezca:
+- [ ] Cabecera fija (`position: sticky`) con Navbar de cristal (`backdrop-filter: blur(12px)` + fondo blanco al 75 %)
+- [ ] Subrayado animado en los enlaces del menú (`::after` + `transform: scaleX()`)
+- [ ] Menú móvil a pantalla completa con animación (ahora es un panel desplegable)
+- [ ] Página 404 con animación CSS
+- [ ] Navbar en forma de píldora con botones de búsqueda y "Empezar la ruta" (cuando existan esas páginas)
