@@ -1,4 +1,5 @@
-import {NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
+import { MENU } from "../../config/variables.js";
 import styles from './Navbar.module.css'
 import MenuMovil from "./MenuMovil";
 
@@ -9,8 +10,9 @@ function Navbar() {
     <nav className={`contenedor ${styles.nav}`}>
 
         <div className={styles.enlaces}>
-          <NavLink to='/' className={styles.enlace}>Inicio</NavLink>
-          <NavLink to='/kit' className={styles.enlace}>Kit</NavLink>
+
+          {MENU.map(({ruta, texto})=> <NavLink key={ruta} to={ruta} className={styles.enlace}>{texto}</NavLink>  )}
+
         </div>
         <MenuMovil/>
     </nav>

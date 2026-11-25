@@ -1,3 +1,7 @@
+export const MENU = [
+    {ruta:'/', texto:'Inicio'},
+    {ruta:'/kit', texto:'Kit'},
+]
 export const CATEGORIAS = [
     {clave:'fundamentos', nombre:'Fundamentos', color:'var(--electrico)', icono:'🧱',},
     {clave:'caja', nombre:'Modelo de caja y visual', color:'var(--mandarina)', icono:'📦',},
@@ -18,3 +22,5 @@ export const CLAVES_STORAGE = {
     FAVORITOS: 'cascada:favoritos',
 
 }
+
+
